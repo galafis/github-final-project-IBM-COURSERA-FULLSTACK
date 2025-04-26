@@ -53,4 +53,4 @@ Contributions are welcome! See `CONTRIBUTING.md` for details about the code of c
 
 ## 📱 Contact
 
-Created with dedication by **galafis**. For questions or suggestions, open an *Issue* or submit a *Pull Request*!
+Created with dedication by **Gabriel Demetrios Lafis**. For questions or suggestions, open an *Issue* or submit a *Pull Request*!
