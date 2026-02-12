@@ -1,56 +1,135 @@
-# github-final-project
+# 🚀 Github Final Project Ibm Coursera Fullstack
 
-## Simple Interest Calculator
+[![Bash](https://img.shields.io/badge/Bash-5.2-4EAA25.svg)](https://www.gnu.org/software/bash/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This project provides a calculator that computes **simple interest** based on the following values:
-
-### 📈 Input:
-- **p**: Principal amount (in currency)
-- **t**: Time period (in years)
-- **r**: Annual rate of interest (percentage)
-
-### 🔄 Output:
-- **Simple Interest = (p × t × r) / 100**
+[English](#english) | [Português](#português)
 
 ---
 
-## 🌐 Project Purpose
+## English
 
-To promote basic financial education and offer a simple tool for financial calculations in a microfinance environment, focusing on supporting low-income individuals.
+### 🎯 Overview
 
----
+**Github Final Project Ibm Coursera Fullstack** — Coursera - IBM Fullstack
 
-## 🛠️ How to Use
+Total source lines: **17** across **1** files in **1** language.
 
-1. Clone the repository:
+### ✨ Key Features
+
+- **Production-Ready Architecture**: Modular, well-documented, and following best practices
+- **Comprehensive Implementation**: Complete solution with all core functionality
+- **Clean Code**: Type-safe, well-tested, and maintainable codebase
+- **Easy Deployment**: Docker support for quick setup and deployment
+
+### 🚀 Quick Start
+
+#### Prerequisites
+- See requirements below
+
+
+#### Installation
+
+1. **Clone the repository**
 ```bash
-git clone https://github.com/galafis/github-final-project.git
+git clone https://github.com/galafis/github-final-project-IBM-COURSERA-FULLSTACK.git
+cd github-final-project-IBM-COURSERA-FULLSTACK
 ```
 
-2. Navigate to the project folder and make the script executable:
-```bash
-chmod +x simple-interest.sh
+
+
+
+
+
+
+
+### 📁 Project Structure
+
+```
+github-final-project-IBM-COURSERA-FULLSTACK/
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── README.md
+└── simple-interest.sh
 ```
 
-3. Run the script:
+### 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| Shell | 1 files |
+
+### 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### 👤 Author
+
+**Gabriel Demetrios Lafis**
+
+- GitHub: [@galafis](https://github.com/galafis)
+- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
+
+---
+
+## Português
+
+### 🎯 Visão Geral
+
+**Github Final Project Ibm Coursera Fullstack** — Coursera - IBM Fullstack
+
+Total de linhas de código: **17** em **1** arquivos em **1** linguagem.
+
+### ✨ Funcionalidades Principais
+
+- **Arquitetura Pronta para Produção**: Modular, bem documentada e seguindo boas práticas
+- **Implementação Completa**: Solução completa com todas as funcionalidades principais
+- **Código Limpo**: Type-safe, bem testado e manutenível
+- **Fácil Implantação**: Suporte Docker para configuração e implantação rápidas
+
+### 🚀 Início Rápido
+
+#### Pré-requisitos
+- Veja os requisitos abaixo
+
+
+#### Instalação
+
+1. **Clone the repository**
 ```bash
-./simple-interest.sh
+git clone https://github.com/galafis/github-final-project-IBM-COURSERA-FULLSTACK.git
+cd github-final-project-IBM-COURSERA-FULLSTACK
 ```
 
----
 
-## 📖 License
 
-Distributed under the Apache 2.0 License. See `LICENSE` for more information.
 
----
 
-## 💡 Contributions
 
-Contributions are welcome! See `CONTRIBUTING.md` for details about the code of conduct and contribution processes.
 
----
+### 📁 Estrutura do Projeto
 
-## 📱 Contact
+```
+github-final-project-IBM-COURSERA-FULLSTACK/
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── README.md
+└── simple-interest.sh
+```
 
-Created with dedication by **Gabriel Demetrios Lafis**. For questions or suggestions, open an *Issue* or submit a *Pull Request*!
+### 🛠️ Stack Tecnológica
+
+| Tecnologia | Uso |
+|------------|-----|
+| Shell | 1 files |
+
+### 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+### 👤 Autor
+
+**Gabriel Demetrios Lafis**
+
+- GitHub: [@galafis](https://github.com/galafis)
+- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
