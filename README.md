@@ -1,182 +1,93 @@
-# 🚀 Github Final Project Ibm Coursera Fullstack
+# GitHub Final Project - IBM Full Stack
 
-> Coursera - IBM Fullstack
+<div align="center">
 
-[![Bash](https://img.shields.io/badge/Bash-5.2-4EAA25.svg)](https://img.shields.io/badge/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![IBM](https://img.shields.io/badge/IBM-052FAD?style=for-the-badge&logo=ibm&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker)](Dockerfile)
 
-[English](#english) | [Português](#português)
+**[PT-BR](#sobre-o-projeto) | [English](#about-the-project)**
+
+</div>
 
 ---
+
+<a name="sobre-o-projeto"></a>
+
+## Sobre o Projeto
+
+> Projeto final do curso **Getting Started with Git and GitHub** -- certificacao [IBM Full Stack Software Developer](https://www.coursera.org/) no Coursera
+
+Este repositorio demonstra o uso pratico de Git e GitHub em um fluxo de trabalho colaborativo, incluindo criacao de branches, pull requests, code of conduct e um script Bash de calculo de juros simples.
+
+---
+
+## Fluxo de Trabalho Git
+
+```mermaid
+flowchart LR
+    A[Fork do\\nRepositorio] --> B[Clone\\nLocal]
+    B --> C[Criar\\nBranch]
+    C --> D[Commits e\\nPush]
+    D --> E[Pull\\nRequest]
+
+    style A fill:#181717,color:#fff,stroke:#333
+    style C fill:#F05032,color:#fff,stroke:#cc3e26
+    style E fill:#2ea44f,color:#fff,stroke:#22863a
+```
+
+---
+
+## Conteudo do Repositorio
+
+| Arquivo | Descricao |
+|---|---|
+| `simple-interest.sh` | Script Bash para calculo de juros simples |
+| `CODE_OF_CONDUCT.md` | Codigo de conduta do projeto |
+| `CONTRIBUTING.md` | Guia de contribuicao |
+| `LICENSE` | Licenca MIT |
+
+## Como Executar
+
+```bash
+git clone https://github.com/galafis/github-final-project-IBM-COURSERA-FULLSTACK.git
+cd github-final-project-IBM-COURSERA-FULLSTACK
+bash simple-interest.sh
+```
+
+## Aplicacao na Industria
+
+Git e GitHub sao ferramentas fundamentais para controle de versao e colaboracao em equipes de desenvolvimento, sendo requisitos essenciais em qualquer vaga de engenharia de software.
+
+---
+
+<a name="about-the-project"></a>
 
 ## English
 
-### 🎯 Overview
+### About the Project
 
-**Github Final Project Ibm Coursera Fullstack** is a production-grade Shell application that showcases modern software engineering practices including clean architecture, comprehensive testing, containerized deployment, and CI/CD readiness.
+> Final project from the **Getting Started with Git and GitHub** course -- [IBM Full Stack Software Developer Certificate](https://www.coursera.org/) on Coursera
 
-The codebase comprises **17 lines** of source code organized across **1 modules**, following industry best practices for maintainability, scalability, and code quality.
+This repository demonstrates practical Git and GitHub usage in a collaborative workflow, including branch creation, pull requests, code of conduct, and a Bash simple interest calculator script.
 
-### ✨ Key Features
-
-- **📐 Clean Architecture**: Modular design with clear separation of concerns
-- **🧪 Test Coverage**: Unit and integration tests for reliability
-- **📚 Documentation**: Comprehensive inline documentation and examples
-- **🔧 Configuration**: Environment-based configuration management
-
-### 🏗️ Architecture
-
-```mermaid
-graph TB
-    subgraph Core["🏗️ Core"]
-        A[Main Module]
-        B[Business Logic]
-        C[Data Processing]
-    end
-    
-    subgraph Support["🔧 Support"]
-        D[Configuration]
-        E[Utilities]
-        F[Tests]
-    end
-    
-    A --> B --> C
-    D --> A
-    E --> B
-    F -.-> B
-    
-    style Core fill:#e1f5fe
-    style Support fill:#f3e5f5
-```
-
-### 🚀 Quick Start
-
-#### Prerequisites
-
-#### Installation
+### How to Run
 
 ```bash
 git clone https://github.com/galafis/github-final-project-IBM-COURSERA-FULLSTACK.git
 cd github-final-project-IBM-COURSERA-FULLSTACK
+bash simple-interest.sh
 ```
-
-### 📁 Project Structure
-
-```
-github-final-project-IBM-COURSERA-FULLSTACK/
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-└── simple-interest.sh
-```
-
-### 🛠️ Tech Stack
-
-| Technology | Description | Role |
-|------------|-------------|------|
-| **Shell** | Core Language | Primary |
-
-### 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### 👤 Author
-
-**Gabriel Demetrios Lafis**
-- GitHub: [@galafis](https://github.com/galafis)
-- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
 
 ---
 
-## Português
+## Licenca | License
 
-### 🎯 Visão Geral
+Este projeto esta licenciado sob a [Licenca MIT](LICENSE). | This project is licensed under the [MIT License](LICENSE).
 
-**Github Final Project Ibm Coursera Fullstack** é uma aplicação Shell de nível profissional que demonstra práticas modernas de engenharia de software, incluindo arquitetura limpa, testes abrangentes, implantação containerizada e prontidão para CI/CD.
+---
 
-A base de código compreende **17 linhas** de código-fonte organizadas em **1 módulos**, seguindo as melhores práticas do setor para manutenibilidade, escalabilidade e qualidade de código.
-
-### ✨ Funcionalidades Principais
-
-- **📐 Clean Architecture**: Modular design with clear separation of concerns
-- **🧪 Test Coverage**: Unit and integration tests for reliability
-- **📚 Documentation**: Comprehensive inline documentation and examples
-- **🔧 Configuration**: Environment-based configuration management
-
-### 🏗️ Arquitetura
-
-```mermaid
-graph TB
-    subgraph Core["🏗️ Core"]
-        A[Main Module]
-        B[Business Logic]
-        C[Data Processing]
-    end
-    
-    subgraph Support["🔧 Support"]
-        D[Configuration]
-        E[Utilities]
-        F[Tests]
-    end
-    
-    A --> B --> C
-    D --> A
-    E --> B
-    F -.-> B
-    
-    style Core fill:#e1f5fe
-    style Support fill:#f3e5f5
-```
-
-### 🚀 Início Rápido
-
-#### Prerequisites
-
-#### Installation
-
-```bash
-git clone https://github.com/galafis/github-final-project-IBM-COURSERA-FULLSTACK.git
-cd github-final-project-IBM-COURSERA-FULLSTACK
-```
-
-### 📁 Estrutura do Projeto
-
-```
-github-final-project-IBM-COURSERA-FULLSTACK/
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-└── simple-interest.sh
-```
-
-### 🛠️ Stack Tecnológica
-
-| Tecnologia | Descrição | Papel |
-|------------|-----------|-------|
-| **Shell** | Core Language | Primary |
-
-### 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
-
-### 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-### 👤 Autor
-
-**Gabriel Demetrios Lafis**
-- GitHub: [@galafis](https://github.com/galafis)
-- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
+Developed by [Gabriel Demetrios Lafis](https://github.com/galafis)
